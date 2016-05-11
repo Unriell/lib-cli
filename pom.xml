@@ -9,7 +9,7 @@
     <name>lib-cli</name>
 
     <description>CLI Console for Java projects</description>
-    <url>https://github.com/corbel-platform/lib-cli</url>
+    <url>https://github.com/bq/lib-cli</url>
 
     <licenses>
         <license>
@@ -30,9 +30,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:corbel-platform/lib-cli.git</connection>
-        <developerConnection>scm:git:git@github.com:corbel-platform/lib-cli.git</developerConnection>
-        <url>https://github.com/corbel-platform/lib-cli</url>
+        <connection>scm:git:git@github.com:bq/lib-cli.git</connection>
+        <developerConnection>scm:git:git@github.com:bq/lib-cli.git</developerConnection>
+        <url>https://github.com/bq/lib-cli</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -200,11 +200,11 @@
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/corbel-platform/lib-cli</url>
+        <url>https://travis-ci.org/bq/lib-cli</url>
     </ciManagement>
 
     <issueManagement>
-        <url>https://github.com/corbel-platform/lib-cli/issues</url>
+        <url>https://github.com/bq/lib-cli/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
