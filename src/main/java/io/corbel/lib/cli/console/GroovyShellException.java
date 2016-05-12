@@ -1,4 +1,4 @@
-package io.corbel.lib.cli.console;
+package com.bq.corbel.lib.cli.console;
 
 /**
  * @author Alexander De Leon
