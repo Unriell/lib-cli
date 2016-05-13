@@ -1,20 +1,19 @@
-package io.corbel.lib.cli.console;
+package com.bq.corbel.lib.cli.console;
 
+import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * Annotation to provide to documentation for console operations.
- * 
- * @author Alexander De Leon
- * 
- */
+import org.springframework.stereotype.Component;
+
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-public @interface Description {
+@Documented
+@Component
+public @interface Shell {
 
 	String value();
-
+	
 }
