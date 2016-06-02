@@ -4,7 +4,7 @@
 
     <groupId>com.bq.corbel.lib</groupId>
     <artifactId>cli</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <version>0.5.1-SNAPSHOT</version>
 
     <name>lib-cli</name>
 
